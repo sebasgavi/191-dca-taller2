@@ -37,7 +37,7 @@ class Logica{
     }
 
     precargar(){
-        this.gif = this.app.createImg('/imagenes/elgif.gif');
+        this.gif = this.app.createImg('./imagenes/elgif.gif');
         this.gif.size(50, 50);
     }
 
